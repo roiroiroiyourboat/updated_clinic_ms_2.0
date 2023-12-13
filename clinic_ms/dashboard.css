@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins';
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 260px;
+    background: #800000;
+    padding: 6px 14px;
+    z-index: 99;
+    transition: all 0.5s ease;
+  }
+
+  .sidebar .nav-list{
+    margin-top: 20px;
+    height: 100%;
+  }
+
+.sidebar .logo-details{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sidebar .logo-details .logo_name{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+  .sidebar img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .sidebar i{
+    color: #fff;
+    height: 60px;
+    min-width: 50px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .sidebar .nav-list{
+    margin-top: 20px;
+    height: 100%;
+  }
+  .sidebar li{
+    position: relative;
+    margin: 8px 0;
+    color: #ffffff;
+    list-style: none;
+  }
+
+  .sidebar li a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    background: #800000;
+    color: #ffffff;
+  }
+
+  .sidebar li a:hover{
+    background: #9A4444;
+  }
+
+  .sidebar li a:hover .links_name,
+  .sidebar li a:hover i{
+    transition: all 0.5s ease;
+    background: #9A4444;
+  }
+
+  .sidebar li a .links_name{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    pointer-events: none;
+    transition: 0.4s;
+  }
+
+  .sidebar li i{
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    border-radius: 12px;
+  }
+
+  
+.sidebar .nav-list  .log_out .out{
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.sidebar .nav-list  .log_out{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar .nav-list  .log_out .out{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.sidebar .nav-list  .log_out{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*header title*/
+.main{
+    background: #ffffff;
+    position: relative;
+    min-height: 100vh;
+    width: calc(100% - 260px);
+    left: 260px;
+
+}
+
+.main .box{
+    margin: 10px;
+}
+
+.main nav .side{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.main nav .side .dashboard, .main nav .side i{
+    font-size: 40px;
+    margin-right: 2px;
+}
